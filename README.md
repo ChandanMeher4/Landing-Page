@@ -70,4 +70,4 @@ I utilized **Vercel v0** extensively to accelerate the UI development process. H
 
 ---
 
-*Submitted by [Your Name] for the Frontend Developer Internship.*
+*Submitted by Chandan Meher for the Frontend Developer Internship.*
