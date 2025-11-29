@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitStory 🚀
+### Turn Commits into Content | Frontend Recruitment Assignment
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14-black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![Vercel v0](https://img.shields.io/badge/Generated%20with-v0-black)
 
-First, run the development server:
+## 🔗 Live Links
+- **🚀 Live Deployment:** [INSERT YOUR LIVE VERCEL LINK HERE]
+- **💻 GitHub Repository:** https://github.com/ChandanMeher4/Landing-Page.git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Project Overview
+**GitStory** is a conceptual SaaS landing page built for the **AutoBotWa Internship Recruitment Task**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Instead of a generic agency website, I designed a **Developer-First Tool**. GitStory is an AI agent that connects to GitHub, analyzes commit history/diffs, and automatically generates human-readable blog posts, changelogs, and stand-up updates.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The design follows a **"Cyberpunk/Dark Mode" aesthetic** (Slate-950 background with Neon Green/Purple accents) to resonate specifically with the target audience of software engineers.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS (Cyberpunk Grid & Glassmorphism effects)
+* **Icons:** Lucide React
+* **AI generation:** Vercel v0 (Generative UI)
+* **Language:** JavaScript (React)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤖 Vercel v0 Implementation Notes
+*Required by assignment.*
 
-## Deploy on Vercel
+I utilized **Vercel v0** extensively to accelerate the UI development process. Here is the breakdown of my workflow:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Thematic Prompting:** I prompted v0 to generate a specific "Dark Mode SaaS" aesthetic, strictly using `lucide-react` icons and a monospace typography system to mimic a code editor environment.
+2.  **Layout Scaffolding:** v0 generated the responsive grids for the **Features**, **Testimonials**, and **Pricing** sections. I specifically requested side-by-side layouts for tablet/desktop (md/lg breakpoints) while maintaining a stacked layout for mobile.
+3.  **Visual "Magic" Section:** I used v0 to create the complex "Visual Demo" section—a split view showing raw code on the left transforming into a clean blog post on the right.
+4.  **Refinement:** I used iterative prompts to fix spacing issues and ensure the "Trusted By" and "FAQ" sections were visually distinct from the rest of the content.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Key Features
+* **Responsive Hero Section:** High-conversion layout with glowing background effects.
+* **Interactive Visual Demo:** A "Code-to-Content" visualization using glassmorphism.
+* **Grid Layouts:** robust CSS Grid implementation for Features and Pricing cards.
+* **FAQ Accordion:** A fully functional, state-driven React accordion component.
+* **Internal UI System:** Custom `Button` and `Card` components built directly into the page for modularity without external library dependencies.
+
+---
+
+## 🚀 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ChandanMeher4/Landing-Page.git
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open locally:**
+    Visit `http://localhost:3000` in your browser.
+
+---
+
+*Submitted by [Your Name] for the Frontend Developer Internship.*
